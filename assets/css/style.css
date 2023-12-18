@@ -448,7 +448,9 @@ body.nav-active { overflow: hidden; }
 .hero .section-title { margin-block: 20px; }
 
 .hero .hero-text { margin-block-end: 40px; }
-
+.hero-text{
+  text-align: justify;
+}
 .hero .input-wrapper:hover { box-shadow: var(--shadow-2); }
 
 .hero .input-wrapper {
