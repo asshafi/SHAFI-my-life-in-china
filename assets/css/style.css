@@ -1,12 +1,7 @@
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * COLORS
-   */
+  /** COLORS */
 
   /** Background colors */
   --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
@@ -68,16 +63,12 @@
   --lineHeight-2: 1.5;
   --lineHeight-4: 1.5;
 
-  /**
-   * BOX SHADOW
-   */
+  /*** BOX SHADOW */
 
   --shadow-1: 0 8px 20px 0 hsla(0, 0%, 0%, 0.05);
   --shadow-2: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
 
-  /**
-   * BORDER RADIUS
-   */
+  /*** BORDER RADIUS */
 
   --radius-6: 6px;
   --radius-8: 8px;
@@ -86,15 +77,11 @@
   --radius-circle: 50%;
   --radius-pill: 200px;
 
-  /**
-   * SPACING
-   */
+  /*** SPACING */
 
   --section-padding: 70px;
 
-  /**
-   * TRANSITION
-   */
+  /*** TRANSITION*/
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
@@ -107,9 +94,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/*RESET*/
 
 *,
 *::before,
@@ -183,9 +168,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/* REUSED STYLE */
 
 .container { padding-inline: 16px; }
 
@@ -312,9 +295,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+/* HEADER */
 
 .header .btn { display: none; }
 
@@ -427,9 +408,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+/* HERO */
 
 .hero-bg { display: none; }
 
@@ -438,6 +417,7 @@ body.nav-active { overflow: hidden; }
 .hero .container {
   display: grid;
   gap: 50px;
+  margin-bottom: 20px;
 }
 
 .hero-subtitle {
@@ -506,9 +486,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #TOPICS
-\*-----------------------------------*/
+/* TOPICS */
 
 .topic-card {
   padding: 24px;
@@ -592,9 +570,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #FEATURED
-\*-----------------------------------*/
+/* FEATURED */
 
 .feature-bg { display: none; }
 
@@ -655,9 +631,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #POPULAR TAGS
-\*-----------------------------------*/
+/* POPULAR TAGS */
 
 .tags .grid-list { grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); }
 
@@ -688,9 +662,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #RECENT POST
-\*-----------------------------------*/
+/* RECENT POST */
 
 .recent-post .container {
   display: grid;
@@ -852,9 +824,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
+/* FOOTER */
 
 .footer {
   padding-inline: 20px;
@@ -948,9 +918,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #BACK TO TOP
-\*-----------------------------------*/
+/* BACK TO TOP */
 
 .back-top-btn {
   position: fixed;
@@ -982,33 +950,23 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
+/* MEDIA QUERIES */
 
-/**
- * responsive for large than 575px screen
- */
+/*  responsive for large than 575px screen */
 
 @media (min-width: 575px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /** CUSTOM PROPERTY */
 
   :root {
 
-    /**
-     * typography
-     */
+    /** typography */
 
     /* font size */
     --fontSize-1: 4.4rem;
     --fontSize-2: 3.5rem;
 
-    /**
-     * spacing
-     */
+    /** spacing */
 
     --section-padding: 100px;
 
@@ -1016,9 +974,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /** REUSED STYLE */
 
   .container {
     max-width: 540px;
@@ -1030,9 +986,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * HEADER
-   */
+  /** HEADER */
 
   .header .btn {
     display: block;
@@ -1043,9 +997,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * HERO
-   */
+  /** HERO */
 
   .hero { position: relative; }
 
@@ -1071,9 +1023,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * TOPICS
-   */
+  /** TOPICS */
 
   .topics .section-title { font-size: 2rem; }
 
@@ -1083,9 +1033,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * FEATURE
-   */
+  /** FEATURE */
 
   .feature { position: relative; }
 
@@ -1099,9 +1047,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * RECENT POST
-   */
+  /** RECENT POST */
 
   .recent-post-card {
     grid-template-columns: 0.5fr 1fr;
@@ -1115,9 +1061,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * ASIDE
-   */
+  /** ASIDE */
 
   .aside-title { --fontSize-2: 2rem; }
 
@@ -1127,21 +1071,15 @@ body.nav-active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 768px screen
- */
+/** responsive for large than 768px screen */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /** CUSTOM PROPERTY */
 
   :root {
 
-    /**
-     * typography
-     */
+    /** typography */
 
     /* font size */
     --fontSize-1: 6.4rem;
@@ -1151,17 +1089,13 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /** REUSED STYLE */
 
   .container { max-width: 720px; }
 
 
 
-  /**
-   * RECENT POST
-   */
+  /** RECENT POST*/
 
   .recent-post-card { grid-template-columns: 0.7fr 1fr; }
 
@@ -1171,23 +1105,17 @@ body.nav-active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 992px screen
- */
+/** responsive for large than 992px screen */
 
 @media (min-width: 992px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /** REUSED STYLE*/
 
   .container { max-width: 930px; }
 
 
 
-  /**
-   * HERO
-   */
+  /** HERO */
 
   .hero { padding-block-start: calc(var(--section-padding) + 80px); }
 
@@ -1198,9 +1126,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /** 
-   * TOPICS
-   */
+  /**  TOPICS */
 
   .topic-card {
     display: grid;
@@ -1211,9 +1137,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * FEATURE
-   */
+  /** FEATURE */
 
   .feature-list li:nth-child(-n+2) { width: calc(50% - 15px); }
 
@@ -1223,17 +1147,13 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * TAGS
-   */
+  /** TAGS */
 
   .tags .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
-  /**
-   * RECENT POST
-   */
+  /** RECENT POST */
 
   .recent-post .container {
     grid-template-columns: 1fr 1fr;
@@ -1242,9 +1162,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * FOOTER
-   */
+  /** FOOTER */
 
   .footer-top { grid-template-columns: repeat(3, 1fr); }
 
@@ -1261,15 +1179,11 @@ body.nav-active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 1200px screen
- */
+/** responsive for large than 1200px screen */
 
 @media (min-width: 1200px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /** REUSED STYLE */
 
   .container { max-width: 1140px; }
 
@@ -1277,9 +1191,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * HEADER
-   */
+  /** HEADER*/
 
   .nav-open-btn,
   .navbar-top,
@@ -1313,17 +1225,13 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * HERO
-   */
+  /** HERO */
 
   .hero .container { max-width: 1050px; }
 
 
 
-  /**
-   * TAGS
-   */
+  /** TAGS */
 
   .tags .grid-list { grid-template-columns: repeat(6, 1fr); }
 
@@ -1331,9 +1239,7 @@ body.nav-active { overflow: hidden; }
   margin-bottom: 30px;
 }
 
-  /**
-   * FOOTER
-   */
+  /** FOOTER */
 
   .footer-top {
     gap: 40px;
